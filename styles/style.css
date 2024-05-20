@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#colorBox {
+    width: 1200px;
+    height: 400px;
+    background-color: #ccc; /* Default color */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    #colorBox {
+    width: 350px;
+    height: 400px;
+}
+}
